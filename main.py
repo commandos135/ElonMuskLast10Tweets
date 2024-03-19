@@ -6,9 +6,6 @@ import time
 
 options = Options()
 
-#options.add_argument("user-data-dir=C:\\Users\\yourusername\\AppData\\Local\\Google\\Chrome Beta\\User Data")
-# (i canceled this method)
-
 options.add_argument("profile-directory=Default")
 
 service = Service(executable_path="chromedriver.exe")
